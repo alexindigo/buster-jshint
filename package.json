@@ -1,35 +1,28 @@
 {
-    "name": "buster-lint",
-    "version": "0.3.1",
-    "description": "Buster-extension: jslint/jshint your files as part of test run.",
-    "homepage": "http://busterjs.org/docs/buster-lint",
-    "author": {
-        "name": "Magnar Sveen",
-        "email": "magnars@gmail.com"
-    },
-    "contributors": [{
-        "name": "Christian Johansen",
-        "email": "christian@cjohansen.no",
-        "url": "http://cjohansen.no"
-    }, {
-        "name": "Stein Magnus Jodal",
-        "email": "stein.magnus@jodal.no",
-        "url": "http://jodal.no"
-    }],
-    "main": "./lib/buster-lint",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/buster/buster-lint.git"
-    },
-    "scripts": {
-        "test": "node run-tests.js"
-    },
-    "dependencies": {
-        "autolint": ">=1.0.3"
-    },
-    "devDependencies": {
-        "buster-node": "0.1",
-        "buster-analyzer": ">=0.4",
-        "buster-configuration": ">=0.6"
-    }
+  "name": "buster-jshint",
+  "version": "0.1.0",
+  "description": "Buster-extension: jshint your files as part of test run.",
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexindigo/buster-jshint/issues"
+  },
+  "homepage": "https://github.com/alexindigo/buster-jshint",
+  "main": "./lib/buster-jshint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexindigo/buster-jshint.git"
+  },
+  "scripts": {
+    "test": "node run-tests.js"
+  },
+  "dependencies": {
+    "jshint": "~2.5.1",
+    "deeply": "~0.1.0"
+  },
+  "devDependencies": {
+    "buster-node": "~0.7.0",
+    "buster-analyzer": "~0.5.0",
+    "buster-configuration": "~0.7.3"
+  }
 }

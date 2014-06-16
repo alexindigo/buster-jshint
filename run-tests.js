@@ -1,3 +1,3 @@
 var buster = require("buster-node");
-require("./test/buster-lint-test");
+require("./test/buster-jshint-test");
 require("./test/lint-test");
