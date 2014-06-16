@@ -1,4 +1,4 @@
-# buster-jshint
+# buster-jshint [![Build Status](https://travis-ci.org/alexindigo/buster-jshint.svg)](https://travis-ci.org/alexindigo/buster-jshint)
 
 Simplified version of `buster-lint` extension for [buster.js](http://busterjs.org)
 to make linting with jshint your JavaScript part of the test run,

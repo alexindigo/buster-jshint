@@ -17,8 +17,7 @@
     "test": "node run-tests.js"
   },
   "dependencies": {
-    "jshint": "~2.5.1",
-    "deeply": "~0.1.0"
+    "jshint": "~2.5.1"
   },
   "devDependencies": {
     "buster-node": "~0.7.0",
